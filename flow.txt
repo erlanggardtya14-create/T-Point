@@ -1,0 +1,53 @@
+trash-point-d00f2
+├── users
+│   └── {uid}
+│       ├── name: "Ahn Keonho"
+│       ├── className: "XI SIJA 1"
+│       ├── avatarUrl
+│       ├── ecoPoint: 2450
+│       ├── totalSetoran: 42
+│       ├── totalSampah: 17
+│       ├── level: "Eco Rookie"
+│       ├── createdAt
+│       └── badges
+│           └── {badgeId}: true
+│
+├── bin
+│   ├── status
+│   │   ├── isOpen: false
+│   │   └── timestamp
+│   └── lastDeposit
+│       ├── category
+│       ├── skor
+│       └── timestamp
+│
+├── deposits
+│   └── {uid}
+│       └── {depositId} (push key)
+│           ├── category: "Plastik"
+│           ├── skor: 87
+│           ├── points: 20
+│           └── timestamp
+│
+├── rewards
+│   └── {rewardId}
+│       ├── name: "Buku Tulis"
+│       ├── category: "Alat Tulis"
+│       ├── points: 100
+│       ├── imageUrl
+│       └── stock: 50
+│
+├── redemptions
+│   └── {uid}
+│       └── {redemptionId} (push key)
+│           ├── rewardId
+│           ├── rewardName
+│           ├── points: 100
+│           ├── status: "pending"
+│           └── timestamp
+│
+└── achievements
+    └── {badgeId}
+        ├── title: "Plastic Hero"
+        ├── desc: "100 botol plastik"
+        └── requirement: { type: "category_count", category: "Plastik", target: 100 }

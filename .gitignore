@@ -1,0 +1,10 @@
+.env
+.env.*
+!.env.example
+
+Android/.env
+Android/.env.*
+
+node_modules/
+dist/
+build/
